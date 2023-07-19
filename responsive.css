@@ -144,13 +144,18 @@
     padding: 40px;
   }
   footer ul{
-    font-size: 10px;
+    font-size: 14px;
   }
   .icons-container p{
     font-size: 20px;
   }
   .icons-container {
     justify-content: center;
+    width: 50%;
+  }
+  .links{
+    gap:0 20px;
+    font-size: 12px;
   }
 
 }
