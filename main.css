@@ -80,7 +80,7 @@ header nav ul li:last-child p {
 .sign-in {
   width: 48%;
   height: 700px;
-  background: url("\images\Group 14.png");
+  background: url("images/Group14.png");
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
