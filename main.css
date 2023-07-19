@@ -4,12 +4,18 @@
   margin: 0;
   padding: 0;
 }
+
+
+header{
+  width: 100%;
+}
 header nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 40px 0;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  width: 100%;
 }
 .logo {
   display: flex;
@@ -63,6 +69,10 @@ header nav ul li:last-child p {
   display: flex;
   gap: 70px;
   align-items: center;
+}
+.goat-sec img{
+  width: 100%;
+  order: 1;
 }
 .sign-in {
   width: 48%;
@@ -141,9 +151,14 @@ header nav ul li:last-child p {
 
 .sec1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
   align-items: center;
   margin-bottom: 100px;
+}
+.sec1 img{
+  max-width: 55%;
 }
 .sec1-text {
   display: flex;
@@ -212,11 +227,12 @@ header nav ul li:last-child p {
   margin-top: 48px;
   margin: auto;
   width: 80%;
+  flex-wrap: wrap;
   margin: auto;
   margin-top: 48px;
 }
 .videos-card {
-  width: 22%;
+  max-width: 345px;
 }
 .image-card{
   position: relative;
@@ -235,11 +251,11 @@ header nav ul li:last-child p {
 
 .sec3 {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 20%;
   align-items: center;
   width: 75%;
-  margin: auto;
+  margin:0 auto;
   margin-top: 120px;
 }
 .sec3-text {
@@ -263,18 +279,23 @@ header nav ul li:last-child p {
 
 .sec3-picture {
   position: relative;
+  width: 50%;
+}
+.sec3-picture img:first-child {
+ width: 100%;
 }
 .sec3-picture img:last-child {
   position: absolute;
-  bottom: -70px;
-  left: -150px;
+  bottom: -10%;
+  left: -15%;
+  width: 45%;
 }
 
 /* """""""""sec4""""""""" */
 
 .sec4 {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 20%;
   align-items: center;
   width: 75%;
@@ -282,6 +303,7 @@ header nav ul li:last-child p {
 }
 .sec4-text {
   max-width: 480px;
+  order: 1;
 }
 .sec4-text h3 {
   text-align: left;
@@ -304,37 +326,47 @@ header nav ul li:last-child p {
   font-weight: 400;
   line-height: 30px;
   margin-top: 24px;
+  width: 100%;
 }
 
 .sec4-picture {
   position: relative;
+  width: 50%;
 }
+.sec4-picture img:first-child {
+  width: 100%;
+ }
 .sec4-picture img:last-child {
   position: absolute;
-  bottom: -70px;
-  right: -150px;
+  bottom: -10%;
+  right: -15%;
+  width: 45%;
 }
 
 /* """""""""""""sec5""""""""""""" */
 
 .sec5 {
   display: flex;
+  gap: 10%;
   align-items: center;
   justify-content: end;
   background: linear-gradient(90deg, #ff0084 0%, #bb166b 100%);
+}
+.sec5 img{
+  width: 50%;
 }
 .sec5-text {
   display: flex;
   flex-direction: column;
   align-items: start;
   color: #fff;
-  max-width: 680px;
+  width: 30%;
 }
 .sec5-text > h3 {
   font-family: Work Sans;
   font-size: 48px;
   font-weight: 700;
-  line-height: 60px; /* 125% */
+  line-height: 60px; 
 }
 .sec5-text > p {
   font-family: Work Sans;
@@ -350,10 +382,13 @@ header nav ul li:last-child p {
 }
 .location p {
   white-space: pre;
+  display: flex;
+  justify-content: center;
   font-family: Work Sans;
-  font-size: 20px;
+  font-size: 1.3vmax;
   font-weight: 600;
   line-height: 40px;
+  width: 100%;
 }
 .location p:last-child {
   text-align: right;
@@ -384,11 +419,15 @@ header nav ul li:last-child p {
   transition: transform .3s;
 }
 .sec6-items h4 {
-  max-width: 600px;
+  /* max-width: 600px; */
   color: #0b0223;
   font-family: Work Sans;
   font-size: 20px;
   font-weight: 600;
+  max-width: 100%;
+}
+.sec6-items img{
+  width: 30%;
 }
 
 footer {
@@ -401,6 +440,9 @@ footer {
   padding: 120px 0;
 }
 footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   list-style-type: none;
   display: flex;
   gap: 60px;
@@ -411,12 +453,15 @@ footer ul {
 .icons-container {
   display: flex;
   gap: 40px;
+  flex-wrap: wrap;
 }
 .icons-container p {
   font-size: 40px;
 }
 .links{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 60px;
   margin-bottom: 28px;
 }

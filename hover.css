@@ -6,7 +6,7 @@
   bottom: 4px;
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.637);
-  transition: opacity 0.3s ease-in;
+  transition: opacity 0.5s;
   cursor: pointer;
   border-radius: 15px;
 }
@@ -29,7 +29,6 @@
 
 .image-card:hover .play-button {
   opacity: 1;
-  filter: none;
 }
 
 .sec6-items:hover h4 {

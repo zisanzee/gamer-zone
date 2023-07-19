@@ -1,0 +1,156 @@
+@media screen and (max-width: 1150px) {
+  .goat-sec{
+    flex-direction: column;
+  }
+  .sec1{
+    flex-direction: column;
+  }
+  .sec3{
+    flex-direction: column;
+  }
+  .sec3-picture {
+    width: 70%;
+  }
+  .sec4{
+    flex-direction: column;
+  }
+  .sec4-picture {
+    width: 70%;
+    order: 2;
+
+    
+  }
+  .sec5{
+    flex-direction: column;
+    align-items: center;
+  }
+  .sec5-text{
+
+    width: 80%;
+  }
+  .location p{
+    font-size: 20px;
+  }
+  .sign-in{
+    width: 100%;
+    height: fit-content;
+    order: 2;
+  }
+  
+}
+@media screen and (max-width: 750px) {
+  
+  header nav{
+    flex-direction: column;
+   
+  }
+  header nav ul{
+    margin-top: 20px; 
+    gap: 10px;
+    flex-direction: column;
+  }
+  header nav ul li {
+    font-size: 14px;
+  }
+  .sign-in h3{
+    font-size: 20px;
+  }
+  .sign-in h2{
+    font-size: 40px;
+    text-align: center;
+  }
+  .sign-in p{
+    font-size: 12px;
+  }
+  .sec1 img{
+    max-width: 90%;
+  }
+  .sec1-text{
+    align-items: center;
+  }
+  .sec1-text h3 {
+    font-size: 24px;
+  }
+  .sec1-text p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .sec1-text h4 {
+    font-size: 14px;
+    text-align: center;
+  }
+  .sec1 h2 {
+    font-size: 18px;
+  }
+  .sec2 h3 {
+    font-size: 24px;
+  }
+  .sec2 p {
+    font-size: 14px;
+  }
+  .sec3-text h3 {
+    font-size: 24px;
+  }
+  .sec3-text p {
+    font-size: 14px;
+  }
+  .sec4-text h3 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  .sec4-text p {
+    font-size: 14px;
+  }
+  
+  .btn-primary{
+    margin: 10px;
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+  .sec3-picture {
+    width: 80%;
+  }
+  .sec4-picture {
+    width: 80%;
+  }
+  .sec5-text h3{
+    font-size: 24px;
+  }
+  .sec5-text p{
+    font-size: 12px;
+  }
+  .location p{
+    font-size: 10px;
+  }
+  .sec6{
+    width: 100%;
+    padding: 0;
+    gap: 0;
+  }
+  .sec6-items{
+    width: 30%;
+  }
+  .sec6-items h4 {
+    padding: 0;
+    gap: 5px;
+    margin: 0;
+    font-size: 10px;
+    width: max-content;
+  }
+  .sec6-items img{
+    width: 20%;
+  }
+  footer{
+    padding: 40px;
+  }
+  footer ul{
+    font-size: 10px;
+  }
+  .icons-container p{
+    font-size: 20px;
+  }
+  .icons-container {
+    justify-content: center;
+  }
+
+}
