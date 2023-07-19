@@ -218,6 +218,12 @@ header nav ul li:last-child p {
 .videos-card {
   width: 22%;
 }
+.image-card{
+  position: relative;
+}
+.image-card img{
+  width: 100%;
+}
 .videos-card p {
   color: #534c64;
   font-family: Work Sans;
@@ -372,6 +378,10 @@ header nav ul li:last-child p {
   gap: 16px;
   align-items: center;
   padding: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  z-index: 1;
+  transition: transform .3s;
 }
 .sec6-items h4 {
   max-width: 600px;
