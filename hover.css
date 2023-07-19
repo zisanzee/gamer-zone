@@ -32,10 +32,7 @@
 }
 
 .sec6-items:hover h4 {
-  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #ff42a5;
 }
 .sec6-items:hover {
   transform: scale(1.2);

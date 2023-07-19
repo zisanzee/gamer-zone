@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
 }
+li, i, .btn-primary, .logo{
+  cursor: pointer;
+}
 
 
 header{
@@ -425,6 +428,7 @@ header nav ul li:last-child p {
   font-size: 20px;
   font-weight: 600;
   max-width: 100%;
+  transition: color .2s;
 }
 .sec6-items img{
   width: 30%;
