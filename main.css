@@ -1,4 +1,176 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;400;600;700;800&family=Inconsolata:wght@400;600;700;800&family=Lato:ital,wght@0,400;0,900;1,700&family=Lora:wght@400;500;700&family=Montserrat:wght@200;400;500;700&family=Open+Sans:wght@400;700;800&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600;700&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;400;600;700;800&family=Inconsolata:wght@400;600;700;800&family=Lato:ital,wght@0,400;0,900;1,700&family=Lora:wght@400;500;700&family=Montserrat:wght@200;400;500;700&family=Open+Sans:wght@400;700;800&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600;700&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600;700;800&display=swap");
+* {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 0;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logo img {
+  max-width: 90px;
+  height: fit-content;
+  align-items: center;
+}
+.logo h3 {
+  text-align: center;
+  font-family: Work Sans, arial;
+  font-size: 45px;
+  font-weight: 700;
+}
+.logo-letter {
+  color: #ff42a5;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 30px;
+}
+header nav ul li {
+  color: #3c354f;
+  text-align: center;
+  font-family: Work Sans, arial;
+  font-size: 18px;
+  font-weight: 500;
+}
+header nav ul li:last-child {
+  display: flex;
+  align-items: center;
+  padding: 18px 25px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+}
+header nav ul li:last-child img {
+  height: 24px;
+  margin-left: 16px;
+}
+header nav ul li:last-child p {
+  margin: 0;
+  margin-right: 16px;
+}
+
+.goat-sec {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+.sign-in {
+  width: 48%;
+  height: 700px;
+  background: url("/images/Group\ 14.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sign-in h3 {
+  color: #0b0223;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.sign-in h2 {
+  font-family: Work Sans;
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #fd2fab 0%, #6634dd 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sign-in p {
+  color: #534c64;
+  text-align: left;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: lowercase;
+  margin-top: 18px;
+}
+.sign-in p i {
+  width: 24px;
+  margin-right: 12px;
+}
+.buttons {
+  display: flex;
+  gap: 24px;
+  margin-top: 40px;
+}
+.btn-primary {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  border-radius: 48px;
+  border: none;
+}
+.bg-pink {
+  background-color: #ff42a5;
+}
+.bg-blue {
+  background-color: #4ec5f7;
+}
+
+.sec1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.sec1-text {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 30px;
+}
+.sec1-text h3 {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sec1-text p {
+  max-width: 520px;
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.sec1-text h4 {
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px;
+}
+.sec1 h2 {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
 }
